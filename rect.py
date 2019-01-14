@@ -1,5 +1,5 @@
 import numpy as np
-
+ 
 def rectify(h):
     h = h.reshape((4,2))
     hnew = np.zeros((4,2),dtype = np.float32)
