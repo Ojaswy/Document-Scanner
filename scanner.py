@@ -2,9 +2,7 @@ import cv2
 import numpy as np
 import rect
  
-# add image here.
-# We can also use laptop's webcam if the resolution is good enough to capture
-# readable document content
+# add image here
 image = cv2.imread('test.jpg')
 
 # resize image so it can be processed
