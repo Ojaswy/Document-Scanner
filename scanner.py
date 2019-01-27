@@ -6,7 +6,7 @@ import rect
 # Uncomment the next line to enter image path as a Command-line arguments
 #image = sys.argv[1]
 image = cv2.imread('test.jpg')
-
+ 
 # resize image so it can be processed
 # choose optimal dimensions such that important content is not lost
 image = cv2.resize(image, (1500, 880))
