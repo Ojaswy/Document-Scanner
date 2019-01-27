@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 import rect
- 
+  
 # add image here
 # Uncomment the next line to enter image path as a Command-line arguments
 #image = sys.argv[1]
